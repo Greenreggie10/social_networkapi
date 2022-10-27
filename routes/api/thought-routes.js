@@ -21,7 +21,7 @@ router.route('/')
     //     "username": "lernantino",
     //     "userId": "5edff358a0fcb779aa7b118b"
     // }
-
+sass
 //   /api/thoughts/ID
 router.route('/:id')
     .get(getOneThought)
@@ -36,5 +36,7 @@ router.route('/:id/reactions')
 //   /api/thoughts/ID/reactions/ID
 router.route('/:thoughtId/reactions/:reactionId')
     .delete(removeReaction)
+
+    
 
 module.exports = router;
