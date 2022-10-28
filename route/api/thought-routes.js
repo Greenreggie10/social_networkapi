@@ -21,7 +21,6 @@ router.route('/')
     //     "username": "lernantino",
     //     "userId": "5edff358a0fcb779aa7b118b"
     // }
-sass
 //   /api/thoughts/ID
 router.route('/:id')
     .get(getOneThought)
